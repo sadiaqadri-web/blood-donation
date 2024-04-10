@@ -1,0 +1,60 @@
+.bread-crumbs{
+    overflow: hidden;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('../../assets/bread-crumb.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 5rem;
+    padding: 115px 0;
+    box-sizing: border-box;
+    width: 1519px;
+    height: 465px;
+    z-index: 1;
+}
+.bread-crumbs .br-cont{
+    max-width: 1170px !important;
+    margin: auto;
+    padding: 0 12px;
+    /* background: aqua; */
+}
+.bread-crumbs .br-cont .br-row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.bread-crumbs .br-cont .br-row .row-cont{
+    flex: 0 0 auto;
+    width: 100%;
+}
+.bread-crumbs .br-cont .br-row .row-cont p{
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.bread-crumbs .br-cont .br-row .row-cont h2{
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: var(--white);
+    font-size: 48px;
+}
+.bread-crumbs .br-cont .br-row .row-cont .pagination{
+    margin-top: 35px;
+    text-align: center;
+}
+.bread-crumbs .br-cont .br-row .row-cont .pagination span{
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    cursor: pointer;
+}
+.bread-crumbs .br-cont .br-row .row-cont .pagination span.active{
+    color: var(--primary-color);
+    /* fon */
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+:root{
+    --white: #fff;
+    --primary-color: #ea062b;
+    --secondary-color: #111111;
+}
+body{
+    background: #fff;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+    cursor: pointer;
+}
+.container{
+    /* padding-left: 10%;
+    padding-right: 10%; */
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.btn{
+    background: var(--primary-color);
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 0;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.3s;
+}
+.btn-tans{
+    cursor: pointer;
+    width: 165px;
+    height: 55px;
+    border-radius: 0 !important;
+    color: var(--white);
+    border: none;
+    background: var(--primary-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    font-weight: 500;
+    font-size: 18px;
+    transition: ease-out 0.3s;
+}
+.btn-tans:hover{
+    color: var(--white);
+    box-shadow: inset 200px 0 0 0#111111;
+}
+.btn-out{
+    border: 1px solid var(--primary-color) !important;
+    color: #fff;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 0;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-out 0.3s;
+}
+.btn-fill:hover{
+    color: var(--white);
+    box-shadow: inset 200px 0 0 0 var(--secondary-color);
+    border: 1px solid var(--primary-color) !important;
+}
+.btn-out:hover{
+    color: var(--primary-color) !important;
+    box-shadow: inset 200px 0 0 0 var(--white);
+    border: none !important;
+}
+.btn img{
+    width: 20px;
+    margin-left: 10px;
+}
+.btn.dark-btn{
+    background: #212ea0;
+    color: #fff;
+}
+
+/* Reponsive */
+@media (max-width: 1200px){
+    .container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .btn{
+        padding: 14px 22px;
+    }
+}

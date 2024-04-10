@@ -1,0 +1,269 @@
+.register{
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+.register .register-cont{
+    padding: 0 12px;
+    max-width: 1170px !important;
+    margin: auto;
+    width: 100%;
+}
+/* register-head */
+
+.register .register-cont .cont{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+.register .register-cont .register-head .register-head-cont{
+    margin-left: 16.66666667%;
+    flex: 0 0 auto;
+    width: 66.66666667%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.register .register-cont .register-head .register-head-cont h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #111111;
+}
+
+/* register-form */
+
+.register .register-cont .register-form{
+    justify-content: center;
+    
+}
+.register .register-cont .register-form .register-form-cont{
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner{
+    border: 1px solid #cacaca;
+    padding: 48px 40px;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .row-1{
+    display: flex;
+    gap: 20px;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .tc{
+    text-align: left;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .md-1{
+    margin-bottom: 20px;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .md-2{
+    margin-bottom: 10px;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .md-3{
+    flex: 0 0 auto;
+    /* width: 25%; */
+    width: 27%;
+ }
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .md-4{
+    flex: 1 0 0%;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form label{
+    text-align: left;
+    display: inline-block;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form label.lb-1{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form label.lb-2{
+    font-size: 14px;
+    line-height: 32px;
+    display: inline-block;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form span{
+    color: var(--primary-color);
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .reg-btn button.but{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: none;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .reg-btn .upd-close-btns{
+    /* background-color: saddlebrown; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form .reg-btn:hover button.but{
+    box-shadow: inset 600px 0 0 0#111111 !important;
+}
+
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form select,
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form input{
+    height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 4px 15px;
+    border: solid 1px #e8e8e8;
+    outline: none;
+}
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form select:focus,
+.register .register-cont .register-form .register-form-cont .register-form-cont-inner .register-main-form input:focus{
+    border: 1px solid var(--primary-color);
+}
+
+/* display users */
+.users-list{
+    padding: 7rem 0;
+    box-sizing: border-box;
+}
+.users-list .users-cont{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.users-list .users-cont h2{
+    margin-bottom: 3rem !important;
+    line-height: 1.2;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #111111;
+}
+.users-list .users-cont .users-table{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+}
+.users-list .users-cont .users-table table{
+    min-width: 900px;
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+    /* background: #3c373e; */
+    background: #111111;
+    border-collapse: collapse;
+}
+.users-list .users-cont .users-table table th{
+    vertical-align: bottom;
+}
+.users-list .users-cont .users-table table th,
+.users-list .users-cont .users-table table td{
+    padding: 0.75rem;
+    vertical-align: top;
+}
+.users-list .users-cont .users-table table thead tr th,
+.users-list .users-cont .users-table table thead tr{
+    padding-bottom: 30px;
+    border-top: none;
+    border-bottom: none !important;
+    color: #fff;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+.users-list .users-cont .users-table table tbody tr{
+    transition: .3s all ease;
+}
+.users-list .users-cont .users-table table tbody tr:hover td b,
+.users-list .users-cont .users-table table tbody tr:hover td:nth-child(2),
+.users-list .users-cont .users-table table tbody tr:hover td:nth-child(7),
+.users-list .users-cont .users-table table tbody tr:hover td:nth-child(8),
+.users-list .users-cont .users-table table tbody tr:hover td:nth-child(9){
+    color: var(--primary-color);
+}
+.users-list .users-cont .users-table table tbody tr:focus td,
+.users-list .users-cont .users-table table tbody tr:hover td{
+    color: var(--white);
+}
+.users-list .users-cont .users-table table tbody tr:nth-of-type(odd) {
+    background-color: rgb(118 114 114 / 5%);
+}
+.users-list .users-cont .users-table table tbody tr td{
+    color: #777;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 300;
+    border: none;
+    transition: .3s all ease;
+}
+
+/* display single user/view record   */
+.view-user{
+    padding: 7rem 0;
+    box-sizing: border-box;
+}
+.view-user .view-user-cont{
+    max-width: 1140px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.view-user .view-user-cont h2{
+    margin-bottom: 3rem !important;
+    line-height: 1.2;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    color: #111111;
+}
+.view-user .view-user-cont .user-info{
+    background: #fff;
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.view-user .view-user-cont .user-info .u-info{
+    display: flex;
+    /* background: darkgoldenrod; */
+    padding: 15px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.view-user .view-user-cont .user-info .u-info strong{
+    flex-basis: 50%;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #111111;
+    font-family: "Jost", sans-serif;
+    line-height: 1.2;
+    /* background: slateblue; */
+}
+.view-user .view-user-cont .user-info .u-info span{
+    text-align: right;
+    flex-basis: 50%;
+    /* background: rgb(34, 0, 255); */
+    /* margin-right: 0; */
+    font-family: "Jost", sans-serif;
+    /* margin-bottom: 25px; */
+    font-size: 16px;
+    color: #666666;
+    line-height: 28px;
+    font-weight: 400;
+}
+.view-user .view-user-cont .user-info .close-btn{
+    margin-top: 20px;
+    margin-left: 84%;
+}

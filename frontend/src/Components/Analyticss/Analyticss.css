@@ -1,0 +1,60 @@
+.analytics{
+    margin-bottom: 4rem;
+    box-sizing: border-box;
+    padding: 5rem;
+}
+.analytics .analytic-cont{
+    padding: 30px 12px;
+    /* max-width: 1170px !important; */
+    max-width: 1350px !important;
+    margin: auto;
+    padding-left: 1.5rem;
+    width: 100%;
+    padding-right: 1.5rem;
+    /* background: #a13636; */
+}
+.analytics .analytic-cont .analytic-header{
+    padding: 15px 20px;
+    width: 100%;
+    border-radius: 10px;
+    background: #f1f1f1;
+    margin-bottom: 5rem;
+    
+}
+.analytics .analytic-cont .other-blood-charts h1,
+.analytics .analytic-cont .blood-donors-chart h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 3rem;
+}
+.analytics .analytic-cont .other-blood-charts{
+    border-radius: 10px;
+    background: #111;
+    display: flex;
+    padding: 15px 20px;
+    gap: 30px;
+    margin-bottom: 3rem;
+}
+.analytics .analytic-cont .other-blood-charts .users{
+    flex-basis: 50%;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+}
+.analytics .analytic-cont .other-blood-charts .cure-blood-patients{
+    flex-basis: 50%;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);    
+}
+
+.analytics .analytic-cont .blood-donors-chart{
+    border-radius: 10px;
+    padding: 15px 20px;
+    background: #111;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);    
+    margin-bottom: 3rem;
+}

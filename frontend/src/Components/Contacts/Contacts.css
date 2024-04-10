@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+.contact{
+    padding: 100px 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.contact .contact-cont{
+    padding: 0 12px;
+    max-width: 1170px !important;
+    margin: auto;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-top: 0;
+    width: 100%;
+}
+.contact .contact-cont .contact-form{
+    padding: 40px;
+    background-color: var(--white);
+    box-sizing: border-box;
+    box-shadow: 0px 13px 38px 0px rgba(28, 28, 28, 0.15);
+}
+.contact .contact-cont .contact-form .contact-form-inner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left{
+    /* background: darkblue; */
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form{
+    box-sizing: border-box;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form h4{
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    color: #111111;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form p{
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #666666;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .inputs{
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 20px;
+    /* margin-right: 1.5rem;
+    margin-left: 1.5rem; */
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .cont-form textarea{
+    resize: vertical;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .cont-form textarea,
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .cont-form input{
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-bottom: 20px; */
+    padding: 20px;
+    background: #f1f1f1;
+    text-transform: capitalize;
+    border: 1px solid transparent;
+    margin: 0;
+    outline: none;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .cont-form textarea:focus,
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .cont-form input:focus{
+    background: transparent;
+    border: 1px solid var(--primary-color);
+}
+
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .row .col{
+    flex: 1 0 0%;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .sub-btn button{
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border: none;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    z-index: 1;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .sub-btn .anglesright{
+    display: flex;
+    font-weight: 900;
+    font-size: 30px;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-left .cont-box-form .sub-btn:hover button.but{
+    box-shadow: inset 600px 0 0 0#111111 !important;
+}
+
+
+/* contact-form-inner-right */
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right{
+    /* background: aqua; */
+    flex: 0 0 auto;
+    width: 41.66666667%;
+    padding: 25px;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont{
+    padding: 18px 24px;
+    background: var(--primary-color);
+    box-sizing: border-box;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont span{
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: 25px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont h4{
+    color: var(--white);
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont p{
+    color: var(--white);
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont ul{
+    list-style-type: none;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont ul li{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont ul li .fa{
+    font-size: 20px;
+    position: relative;
+    right: 5px;
+    top: 6px;
+}
+.contact .contact-cont .contact-form .contact-form-inner .contact-form-inner-right  .contact-form-right-cont ul li span{
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+
+}
+/* Social-btns */
+.social-btns {
+    margin-bottom: 5rem;
+}
+.social-btns .social-btns-cont{
+    padding: 0 12px;
+    max-width: 1170px !important;
+    margin: auto;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+}
+.social-btns .social-btns-cont .social-btns-cont-btns{
+    box-sizing: border-box;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-btns .social-btns-cont .social-btns-cont-btns .social-btn{
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+    position: relative;
+    z-index: 1;
+}
+/* map */
+.map{
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0px 13px 38px 0px rgba(28, 28, 28, 0.15);
+}
